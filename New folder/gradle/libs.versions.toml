@@ -1,0 +1,100 @@
+[versions]
+agp = "8.5.2"
+androidImageCropper = "2.3.4"
+androidImageCropperByft = "2.9"
+androidImageCropperVersion = "2.8.0"
+cardview = "1.0.0"
+ccp = "2.7.3"
+exifinterface = "1.3.3"
+firebaseBom = "33.7.0"
+firebaseDatabaseVersion = "20.3.3"
+firebaseStorageVersion = "20.3.0"
+firebaseUiDatabase = "8.0.2"
+fragmentKtx = "1.8.5"
+glide = "4.15.1"
+googleMaterial = "1.11.0"
+imageCropperCompose = "1.0.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+legacySupportV4 = "1.0.0"
+lib = "1.0.2"
+lifecycleExtensions = "2.2.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
+firebaseAuth = "23.1.0"
+firebaseStorage = "21.0.1"
+firebaseMessaging = "24.1.0"
+firebaseAnalytics = "22.1.2"
+materialVersion = "1.1.0"
+navigationFragment = "2.8.4"
+okhttp = "3.12.13"
+picasso = "2.71828"
+recyclerview = "1.3.2"
+retrofit = "2.6.1"
+transition = "1.5.0"
+ucrop = "2.2.8"
+ucropVersion = "2.2.6"
+vectordrawable = "1.2.0"
+firebaseFirestore = "25.1.1"
+fragment = "1.8.5"
+billing = "1.0.0-alpha11"
+
+[libraries]
+android-image-cropper = { module = "com.theartofdev.edmodo:android-image-cropper", version.ref = "androidImageCropper" }
+android-image-cropper-byft = { module = "com.github.ictfoysal:Android-Image-Cropper-byFt", version.ref = "androidImageCropperByft" }
+android-image-cropper-v280 = { module = "com.theartofdev.edmodo:android-image-cropper", version.ref = "androidImageCropperVersion" }
+cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
+ccp = { module = "com.hbb20:ccp", version.ref = "ccp" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+exifinterface = { module = "androidx.exifinterface:exifinterface", version.ref = "exifinterface" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-database-v2033 = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabaseVersion" }
+firebase-storage-v2030 = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorageVersion" }
+firebase-ui-database = { module = "com.firebaseui:firebase-ui-database", version.ref = "firebaseUiDatabase" }
+fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+glide = { module = "com.github.bumptech.glide:glide", version = "4.16.0" }
+google-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+image-cropper-compose = { module = "com.github.canhdinh:image-cropper-compose", version.ref = "imageCropperCompose" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+legacy-support-v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "legacySupportV4" }
+lib = { module = "com.cepheuen.elegant-number-button:lib", version.ref = "lib" }
+lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebaseMessaging" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics", version.ref = "firebaseAnalytics" }
+material-v110 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+material-v1110 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+navigation-fragment = { module = "androidx.navigation:navigation-fragment", version.ref = "navigationFragment" }
+navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragment" }
+navigation-ui = { module = "androidx.navigation:navigation-ui", version.ref = "navigationFragment" }
+navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationFragment" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+transition = { module = "androidx.transition:transition", version.ref = "transition" }
+ucrop = { module = "com.github.yalantis:ucrop", version.ref = "ucrop" }
+vectordrawable = { module = "androidx.vectordrawable:vectordrawable", version.ref = "vectordrawable" }
+yalantis-ucrop = { module = "io.github.yalantis:ucrop", version = "placeholder" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragment" }
+billing = { group = "com.google.androidbrowserhelper", name = "billing", version.ref = "billing" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground">
+
+    <!-- Order ID -->
+    <TextView
+        android:id="@+id/order_id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order ID:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"
+        android:textColor="@android:color/black" />
+
+    <!-- Order Status -->
+    <TextView
+        android:id="@+id/order_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status:"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <!-- Total Price -->
+    <TextView
+        android:id="@+id/order_total_price_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total:"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <!-- Order Timestamp -->
+    <TextView
+        android:id="@+id/order_timestamp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timestamp:"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>

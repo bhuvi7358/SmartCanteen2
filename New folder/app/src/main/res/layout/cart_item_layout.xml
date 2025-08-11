@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/cart_item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Food Item"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cart_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹0.00"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/cart_item_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity: 1"
+        android:textSize="14sp" />
+
+    <!-- Increase quantity icon -->
+    <ImageButton
+        android:id="@+id/increase_quantity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_increase"
+        android:contentDescription="Increase Quantity"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="8dp" />
+
+    <!-- Decrease quantity icon -->
+    <ImageButton
+        android:id="@+id/decrease_quantity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_decrease"
+        android:contentDescription="Decrease Quantity"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="8dp" />
+
+    <!-- Remove from cart icon -->
+    <ImageButton
+        android:id="@+id/remove_from_cart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_remove"
+        android:contentDescription="Remove Item"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="8dp" />
+</LinearLayout>

@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Food Items..."
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/food_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food Quantity"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/food_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food Price"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/add_food_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Food" />
+
+    <Button
+        android:id="@+id/update_food_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Food" />
+
+    <!-- Delete Food Button -->
+    <Button
+        android:id="@+id/delete_food_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Food" />
+
+
+</LinearLayout>
